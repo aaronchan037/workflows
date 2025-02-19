@@ -19,6 +19,4 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install -r requirements.txt
       # 执行python 命令
-      - run: |
-          python3 make.py
-        working-directory: ./DH
+      - run: python3 make.py
