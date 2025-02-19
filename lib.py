@@ -89,6 +89,3 @@ def point_multiply(P, n, A, p):
         addend = point_double(addend, A, p)
         n //= 2
     return result
-
-# 示例调用
-monty_gen_basept(255, 486662)
